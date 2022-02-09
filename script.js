@@ -74,7 +74,7 @@ $(document).ready(function(){
 
 function submitForm()
 {
-    const subject = document.getElementById('subject'.value);
+    const subject = document.getElementById('subject').value;
     const name = document.getElementById('name').value;
     const message = document.getElementById('message').value;
     window.open(`mailto:iyinoluwsamuel@gmail.com?subject=${subject}&body=${message}`);
